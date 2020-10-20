@@ -11,6 +11,10 @@
         {
             "source": "/lenny2",
             "destination": "/api/app/lenny2"
+        },
+        {
+            "source": "/about",
+            "destination": "/about.html"
         }
     ]
 }
