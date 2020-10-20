@@ -1,18 +1,6 @@
 const app = require('express')()
 const { v4 } = require('uuid')
 
-app.get('/lenny', (req, res) => {
-    res.setHeader('Content-Type', 'application/json')
-    res.setHeader('Cache-Control', 's-max-age=1, stale-while-revalidate')
-    res.json({ message: `Hello World!` })
-})
-
-app.get('/lenny2', (req, res) => {
-    res.setHeader('Content-Type', 'text/html')
-    res.setHeader('Cache-Control', 's-max-age=1, stale-while-revalidate')
-    res.end(`Hello World!`)
-})
-
 app.get('/api', (req, res) => {
     const path = `/item/${v4()}`
     res.setHeader('Content-Type', 'text/html')

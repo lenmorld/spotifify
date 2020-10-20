@@ -1,18 +1,6 @@
 {
     "rewrites": [
         {
-            "source": "/api/(.*)",
-            "destination": "/api/app"
-        },
-        {
-            "source": "/lenny",
-            "destination": "/api/app/lenny"
-        },
-        {
-            "source": "/lenny2",
-            "destination": "/api/app/lenny2"
-        },
-        {
             "source": "/about",
             "destination": "/about.html"
         }
