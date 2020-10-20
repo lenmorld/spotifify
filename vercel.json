@@ -5,12 +5,12 @@
             "destination": "/api/app"
         },
         {
-            "source": "/",
-            "destination": "/lenny"
+            "source": "/lenny",
+            "destination": "/api/app/lenny"
         },
         {
             "source": "/lenny2",
-            "destination": "/lenny2"
+            "destination": "/api/app/lenny2"
         },
         {
             "source": "/about",
