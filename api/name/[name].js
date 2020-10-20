@@ -15,6 +15,10 @@
 // match: api/lenny
 // no need to put in vercel.json
 
-module.exports = () => {
-    res.send(`Hello world`)
+module.exports = (req, res) => {
+    const {
+        query: { name },
+    } = req
+
+    res.send(`Hello ${name}!`)
 }
