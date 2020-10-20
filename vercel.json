@@ -3,6 +3,18 @@
         {
             "source": "/api/(.*)",
             "destination": "/api/app"
+        },
+        {
+            "source": "/",
+            "destination": "/lenny"
+        },
+        {
+            "source": "/lenny2",
+            "destination": "/lenny2"
+        },
+        {
+            "source": "/about",
+            "destination": "/about.html"
         }
     ]
 }
